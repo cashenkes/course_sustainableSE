@@ -46,13 +46,3 @@ These observations have implications. The paper states that OSS projects might i
 ---
 
 <!--mandatory fields: paper_title, readby, paper_author, journal, year, doi or preprint or arxiv, slides (if you have), abstract, annotation -->
-
-
-@misc{gerosa2021shifting,
-      title={The Shifting Sands of Motivation: Revisiting What Drives Contributors in Open Source}, 
-      author={Marco Gerosa and Igor Wiese and Bianca Trinkenreich and Georg Link and Gregorio Robles and Christoph Treude and Igor Steinmacher and Anita Sarma},
-      year={2021},
-      eprint={2101.10291},
-      archivePrefix={arXiv},
-      primaryClass={cs.SE}
-}
