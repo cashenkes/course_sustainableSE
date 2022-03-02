@@ -61,16 +61,16 @@ All classes will be recorded and shared privately with the students.
  2     | 1   | **Lecture.** Social and Individual Sustainability in SE. {% include tag.html name="hybrid" %} [📊Slides][slides02]
  3     | 1   | **Paper Reading.** Read and summarise research literature on Social and Individual SE Sustainability. {% include tag.html name="~~hybrid~~/offline" %}
  4     | 2   | **Presentation.** Present a summary of a research paper. {% include tag.html name="hybrid" %}
- 5     | 2   | **Lab.** Measuring software energy consumption. Introduction to [Project 1]. {% include tag.html name="hybrid" %}
- 6     | 2   | **Lecture.** Green Software Engineering — Part I: units of energy; reliable energy measurements. {% include tag.html name="hybrid" %}
+ 5     | 2   | **Lab.** Measuring software energy consumption. Introduction to [Project 1](#project1). [📊Slides][slides05] [🎥Recording][recording05] {% include tag.html name="hybrid" %}
+ 6     | 2   | **Lecture.** Green Software Engineering — Part I: units of energy. [📊Slides][slides06] [🎥Recording][recording06] {% include tag.html name="hybrid" %}
  7     | 3   | **Project.** Project 1 - steering meeting and formative assessment. {% include tag.html name="online/in-person" %}
- 8     | 3   | **Lecture.** Green Software Engineering — Part II: Energy efficiency in mobile computing; carbon-aware data centres. {% include tag.html name="hybrid" %}
- 9     | 3   | **Guest Lecture.** <!-- Rui Pereira? --> {% include tag.html name="tbd: online/in-person" %} 
- 10    | 4   | **Paper Reading.** Read and summarise research literature on Environmental Sustainability. {% include tag.html name="offline" %}
+ 8     | 3   | **Lecture.** Green Software Engineering — Part II: Scientific guide for reliable energy measurements. [📊Slides][slides08] [🎥Recording part2][recording08] {% include tag.html name="hybrid" %}
+ 9     | 3   | **Lecture.** Green Software Engineering — Part III: Energy efficiency in mobile computing; carbon-aware data centres. [📊Slides][slides09] [🎥Recording][recording09] {% include tag.html name="hybrid" %}
+ 10    | 4   | **Project.** Project 1 - steering meeting. {% include tag.html name="online/in-person" %}
  11    | 4   | **Lecture.** Green AI. {% include tag.html name="hybrid" %}
- 12    | 4   | **Guest Lecture.** *Security vs Energy Efficiency*. [Stefanos Georgiou]. {% include tag.html name="online" %}
+ 12    | 4   | **Guest Lecture.** *Saving energy in software development by making the right choices*. [Stefanos Georgiou]. {% include tag.html name="online" %}
  13    | 5   | **Lecture.** Empirical Software Engineering. <!-- Qualitative vs Quantitative methods. Types of studies -->.{% include tag.html name="hybrid" %}
- 14    | 5   | **Guest Lecture.** <!-- Daniel Feitosa? --> {% include tag.html name="tbd: online/in-person" %} 
+ 14    | 5   | **Guest Lecture.**  *The effect of design patterns on energy consumption*. [Daniel Feitosa]. {% include tag.html name="tbd: online/in-person" %} 
  15    | 5   | **Project.** Project 2 - Description and kick-off. {% include tag.html name="online/in-person" %}
  16    | 6   | **Project.** Presentation and discussion of proposals. {% include tag.html name="online" %}
  18    | 6   | **Steering Meeting.** First draft of ToC. {% include tag.html name="online" %}
@@ -83,7 +83,6 @@ All classes will be recorded and shared privately with the students.
 Below the description of each projects and respective formative[^formative] and summative[^summative] assessments.
 
 ### 📚 Literature Review
-**⭐️(new)**
 
 - Groups of 2 or 3
 - Select 1 academic paper that talks about social or individual sustainability in the context of software engineering.
@@ -96,20 +95,28 @@ Below the description of each projects and respective formative[^formative] and 
 - Submission by pull request to the website. Instructions [here](https://luiscruz.github.io/course_sustainableSE/2022/literature_review.html).
 - **Deadline** Tuesday, Feb 15.
 
-### Project 1 – Measuring Software Energy Consumption
+### 🛠 **Project 1** Measuring Software Energy Consumption
+{: #project1}
 
-Measure the energy consumption of a particular use case of an open source software system.
-In this project, you will use state-of-the-art power measurement measurement tools: Intel Power Gadget, RAPL, PowerLog, PowerStat, Windows E3, and so on.
+- Goal: Compare energy consumption in common software use cases.
+  - Examples:
+    - Different versions of the same app;
+      - Same use case but different apps
+      - Same version, same app, but different user settings (e.g., enable/disable GPU optimisation)
+      - Same version, same app, but different running environment
+- Blog-style report (markdown, approx 2500 words).
+  - Bonus if you can automate the experiment and there is a replication package.
+- Submission by pull request to the website. Instructions [here](/course_sustainableSE/2022/p1_measuring_software/). **⭐️(new)**
+- **Weight in final grade**: 30%
+- **Steering meeting/formative assessment**: Tuesday, Feb 22
+- **Deadline** Thursday, Mar 3
+
+
+<!--### 🛠 Project 2 – Research Project
 
 **Formative assessment:** Short meeting with the teacher to present preliminary results. You will receive written feedback to incorporate into a final report.
 
-**Summative assessment:** Write a one-page report about the measurement experiment.
-
-### Project 2 – Research Project
-
-**Formative assessment:** Short meeting with the teacher to present preliminary results. You will receive written feedback to incorporate into a final report.
-
-**Summative assessment:** Write a short paper about the work and . Give a 15-min live talk to the class.
+**Summative assessment:** Write a short paper about the work and . Give a 15-min live talk to the class. -->
 
  
 
@@ -137,6 +144,7 @@ In this project, you will use state-of-the-art power measurement measurement too
 [Luís Cruz]: https://luiscruz.github.io
 [CS4415]: https://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=60099
 [Stefanos Georgiou]: https://twitter.com/stefanosgeorgi1/
+[Daniel Feitosa]: https://feitosa-daniel.github.io
 
 [^formative]: Formative assessments are not graded. They are typically informal and focused on providing feedback that can help students improve their work.
 [^summative]: Summative assessments are graded and focused on the final outcome of the project.
@@ -148,4 +156,13 @@ In this project, you will use state-of-the-art power measurement measurement too
 
 [slides01]: https://surfdrive.surf.nl/files/index.php/s/qi41wkOd2mAsYPN
 [slides02]: https://surfdrive.surf.nl/files/index.php/s/cpUC4sIOFmgoHYB
+[slides05]: https://surfdrive.surf.nl/files/index.php/s/Jrc27nmuyNoSW4w
+[slides06]: https://surfdrive.surf.nl/files/index.php/s/p2jqcN2tBpDBWKD
+[slides08]: https://surfdrive.surf.nl/files/index.php/s/WAwaYYSsn04Pxdi
+[slides09]: https://surfdrive.surf.nl/files/index.php/s/unF9vN0wX0EXfqz
+
 [recording01]: https://surfdrive.surf.nl/files/index.php/s/xGvQkfhi6hpZMnb
+[recording05]: https://surfdrive.surf.nl/files/index.php/s/T0Fm119XCJLZT3C
+[recording06]: https://surfdrive.surf.nl/files/index.php/s/SbengCYvu8O88eF
+[recording08]: https://surfdrive.surf.nl/files/index.php/s/xOPBn8Ajc6UVxiR
+[recording09]: https://surfdrive.surf.nl/files/index.php/s/k4iZCsc532Bpx9y
